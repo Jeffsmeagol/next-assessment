@@ -16,13 +16,13 @@ export default function Products() {
         </Typography>
       </Box>
       <Stack direction="row" flexWrap={"wrap"} py={10}>
-        {Array.from({ length: 8 }, (_, i) => i + 1).map((no) => (
+        {Array.from({ length: 10 }, (_, i) => i + 1).map((no) => (
           <Stack
             key={no}
             p={1}
             pt={2}
             width={{ xs: "100%", sm: "initial" }}
-            flexGrow={2}
+            flexGrow={1}
           >
             <Box width="100%">
               <img src={`/product-cover${no}.png`} width="100%" />
